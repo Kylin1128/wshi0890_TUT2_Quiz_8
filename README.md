@@ -22,21 +22,27 @@ Here are some screenshots of the Promotional Video:
 ## PART 2: Coding Technique Exploration
 I want to use the code to make this effect: the picture will follow the mouse slide, at the same time the text or the image of the next layer appears, and the text or the image can produce a fading effect.
 
-**This is blod test**
-
-*Italic text*
-
-- Item 1
-- Item 2
-  - Sub item 1
-  - Sub item 2
-    - Sub Sub item
-
-**Numbered list**
-1. First item
-2. Second item
-    1. 1st sub item
+1. [Directional](https://p5js.org/examples/lights-directional.html)
 
 ```
-Here is a code block
+const radius = 200;
+
+function setup() {
+  createCanvas(710, 400, WEBGL);
+  noStroke();
+  fill(200);
+}
+
+function draw() {
+  noStroke();
+  background(0);
+  const dirY = (mouseY / height - 0.5) * 4;
+  const dirX = (mouseX / width - 0.5) * 4;
+  directionalLight(204, 204, 204, dirX, dirY, 1);
+  translate(-1.5 * radius, 0, 0);
+  sphere(radius);
+  translate(3 * radius, 0, 0);
+  sphere(radius);
+}
+
 ```
