@@ -20,9 +20,13 @@ Here are some screenshots of the Promotional Video:
 ![4](readmeImages/4.png)
 
 ## PART 2: Coding Technique Exploration
-I want to use the code to make this effect: the picture will follow the mouse slide, at the same time the text or the image of the next layer appears, and the text or the image can produce a fading effect.
+I would like to use the code to make an effect similar to the screenshot above: The image follows the mouse slide panning left and right, at the same time the image or the text of the next layer appears, and the next layer image can produce a fading effect.
+
+I didn't find code that directly implements my idea, but I found several codes that combined have the potential to achieve the effect I described.
 
 1. [Directional](https://p5js.org/examples/lights-directional.html)
+
+![5](readmeImages/5.png)
 
 ```
 const radius = 200;
@@ -43,6 +47,33 @@ function draw() {
   sphere(radius);
   translate(3 * radius, 0, 0);
   sphere(radius);
+}
+
+```
+
+2. [Alpha Mask](https://p5js.org/examples/image-alpha-mask.html)
+
+![6](readmeImages/6.png)
+
+```
+let img;
+let imgMask;
+
+function preload() {
+  img = loadImage('assets/moonwalk.jpg');
+  imgMask = loadImage('assets/mask.png');
+}
+
+function setup() {
+  createCanvas(720, 400);
+  img.mask(imgMask);
+  imageMode(CENTER);
+}
+
+function draw() {
+  background(0, 102, 153);
+  image(img, width / 2, height / 2);
+  image(img, mouseX, mouseY);
 }
 
 ```
