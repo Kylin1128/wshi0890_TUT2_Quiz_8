@@ -12,10 +12,13 @@ My inspirations come from a Promotional Video for the game *Zenless Zone Zerod*.
 
 According to the assignment requirements, I would like to use layered geometric patterns in the final project, and this case has the layered appearance. It also used a fading effect so that the overall image looks smooth and does not seem stiff.
 
-![](D:\SWRT\Desktop\Study\IDEA 9103 Creative Coding\WK8\wshi0890_TUT2_Quiz_8\assets\1.png)
-![](D:\SWRT\Desktop\Study\IDEA 9103 Creative Coding\WK8\wshi0890_TUT2_Quiz_8\assets\2.png)
-![](D:\SWRT\Desktop\Study\IDEA 9103 Creative Coding\WK8\wshi0890_TUT2_Quiz_8\assets\3.png)
-![](D:\SWRT\Desktop\Study\IDEA 9103 Creative Coding\WK8\wshi0890_TUT2_Quiz_8\assets\4.png)
+![](assets\1.png)
+
+![](assets\2.png)
+
+![](assets\3.png)
+
+![](assets\4.png)
 
 ## PART 2: Coding Technique Exploration
 用鼠标滑动一个图片，图片跟随鼠标的方向移动，会使后面一个图层的文字显现出来，且文字可以产生渐变的效果。
