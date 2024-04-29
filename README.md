@@ -9,7 +9,7 @@
 
 
 ## PART 1: Imaging Technique Inspiration
-My inspirations come from a Promotional Video for the game ***Zenless Zone Zerod***. The game isn't even official issued yet, but when it's first Promotional Video was posted, I was very attracted by some of the images in it. So I think some of the imaging techniques used in it that I can learn. 
+My inspirations come from a Promotional Video for the game [***Zenless Zone Zerod***](https://www.youtube.com/watch?v=C5WS9Ohb-fI). The game isn't even official issued yet, but when it's first Promotional Video was posted, I was very attracted by some of the images in it. So I think some of the imaging techniques used in it that I can learn. 
 
 According to the assignment requirements, I would like to use layered geometric patterns in the final project, and this case has the layered appearance. It also used a fading effect so that the overall image looks smooth and does not seem stiff.
 
