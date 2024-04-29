@@ -8,9 +8,11 @@
 
 
 ## PART 1: Imaging Technique Inspiration
-My inspirations come from a Promotional Video for the game *Zenless Zone Zerod*.The game isn't even official issued yet, but when it's first Promotional Video was posted, I was very attracted by some of the images in it. So I think some of the imaging techniques used in it that I can learn. 
+My inspirations come from a Promotional Video for the game ***Zenless Zone Zerod***. The game isn't even official issued yet, but when it's first Promotional Video was posted, I was very attracted by some of the images in it. So I think some of the imaging techniques used in it that I can learn. 
 
 According to the assignment requirements, I would like to use layered geometric patterns in the final project, and this case has the layered appearance. It also used a fading effect so that the overall image looks smooth and does not seem stiff.
+
+Here are some screenshots of the Promotional Video:
 
 ![1](readmeImages/1.png)
 ![2](readmeImages/2.png)
@@ -18,7 +20,7 @@ According to the assignment requirements, I would like to use layered geometric 
 ![4](readmeImages/4.png)
 
 ## PART 2: Coding Technique Exploration
-用鼠标滑动一个图片，图片跟随鼠标的方向移动，会使后面一个图层的文字显现出来，且文字可以产生渐变的效果。
+I want to use the code to make this effect: the picture will follow the mouse slide, at the same time the text or the image of the next layer appears, and the text or the image can produce a fading effect.
 
 **This is blod test**
 
