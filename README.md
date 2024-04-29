@@ -1,8 +1,9 @@
 # wshi0890_TUT2_Quiz_8
 
-**I start the design research for my major assignments. This is my research report.**
+### I start the design research for my major assignments. This is my research report.###
 
 - [wshi0890\_TUT2\_Quiz\_8](#wshi0890_tut2_quiz_8)
+        - [I start the design research for my major assignments. This is my research report.#####](#i-start-the-design-research-for-my-major-assignments-this-is-my-research-report)
   - [PART 1: Imaging Technique Inspiration](#part-1-imaging-technique-inspiration)
   - [PART 2: Coding Technique Exploration](#part-2-coding-technique-exploration)
 
@@ -35,5 +36,6 @@ The following two screenshots show two code examples of possible implements of t
 
 ![6](readmeImages/6.png)
 
-**In conclusion, this is only a primary concept, and there are still many details that need to be more refined in future work.**
+### In conclusion, this is only a primary concept, and there are still many details that need to be more refined in future work. ###
 
+ 
