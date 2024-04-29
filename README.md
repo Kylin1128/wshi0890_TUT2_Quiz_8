@@ -1,6 +1,6 @@
 # wshi0890_TUT2_Quiz_8
 
-**This is my research report**
+**I start the design research for my major assignments. This is my research report.**
 
 - [wshi0890\_TUT2\_Quiz\_8](#wshi0890_tut2_quiz_8)
   - [PART 1: Imaging Technique Inspiration](#part-1-imaging-technique-inspiration)
@@ -24,56 +24,16 @@ I would like to use the code to make an effect similar to the screenshot above: 
 
 I didn't find code that directly implements my idea, but I found several codes that combined have the potential to achieve the effect I described.
 
+The following two screenshots show two code examples of possible implements of the imaging technique. The first code can realize the effect of fading based on the mouse slide, and the second code can realize the movement and masking of the two layers. Click on the titles to see the detail codes:
+
 1. [Directional](https://p5js.org/examples/lights-directional.html)
 
 ![5](readmeImages/5.png)
 
-```
-const radius = 200;
-
-function setup() {
-  createCanvas(710, 400, WEBGL);
-  noStroke();
-  fill(200);
-}
-
-function draw() {
-  noStroke();
-  background(0);
-  const dirY = (mouseY / height - 0.5) * 4;
-  const dirX = (mouseX / width - 0.5) * 4;
-  directionalLight(204, 204, 204, dirX, dirY, 1);
-  translate(-1.5 * radius, 0, 0);
-  sphere(radius);
-  translate(3 * radius, 0, 0);
-  sphere(radius);
-}
-
-```
 
 2. [Alpha Mask](https://p5js.org/examples/image-alpha-mask.html)
 
 ![6](readmeImages/6.png)
 
-```
-let img;
-let imgMask;
+**In conclusion, this is only a primary concept, and there are still many details that need to be more refined in future work.**
 
-function preload() {
-  img = loadImage('assets/moonwalk.jpg');
-  imgMask = loadImage('assets/mask.png');
-}
-
-function setup() {
-  createCanvas(720, 400);
-  img.mask(imgMask);
-  imageMode(CENTER);
-}
-
-function draw() {
-  background(0, 102, 153);
-  image(img, width / 2, height / 2);
-  image(img, mouseX, mouseY);
-}
-
-```
